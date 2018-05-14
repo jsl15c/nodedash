@@ -1,0 +1,29 @@
+{
+  "name": "nodedash",
+  "version": "0.0.1",
+  "description": "A measure of the cost of participating as a peer in a blockchain network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack src/index.js --output bin/app.js -d --watch",
+    "build": "webpack src/index.js --output bin/app.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsl15c/nodedash.git"
+  },
+  "keywords": [],
+  "author": "Jarrod Luca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsl15c/nodedash/issues"
+  },
+  "homepage": "https://github.com/jsl15c/nodedash#readme",
+  "dependencies": {
+    "mithril": "^1.1.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
