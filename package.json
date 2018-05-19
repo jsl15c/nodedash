@@ -13,13 +13,14 @@
     "url": "git+https://github.com/jsl15c/nodedash.git"
   },
   "keywords": [],
-  "author": "Jarrod Luca",
+  "author": "Jarrod Luca, Ariel Deschapell",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jsl15c/nodedash/issues"
   },
   "homepage": "https://github.com/jsl15c/nodedash#readme",
   "dependencies": {
+    "chart.js": "^2.7.2",
     "mithril": "^1.1.6"
   },
   "devDependencies": {
