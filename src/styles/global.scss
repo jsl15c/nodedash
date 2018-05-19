@@ -28,87 +28,108 @@ header {
         }
       }
       .n {
-        >span:nth-child(1) {
-          height:20px;
+        span:nth-child(1) {
+          height:0px;
           width:3px;
+          bottom:-20px;
         }
-        >span:nth-child(2) {
-          height:3px;
-          width:20px;
+        span:nth-child(2) {
+          height:0px;
+          width:3px;
+          top:-17px;
+          left:0;
+          transform-origin: 10px 10px;
+          transform:rotate(-90deg);
         }
-        >span:nth-child(3) {
+        span:nth-child(3) {
           right:-20px;
-          height:20px;
+          height:0px;
           width:3px;
         }
       }
       .o {
         left:25px;
         span:nth-child(1) {
-          height:20px;
+          height:0px;
           width:3px;
         }
         span:nth-child(2) {
-          height:3px;
-          width:20px;
+          height:0px;
+          width:3px;
+          transform-origin: 10px 10px;
+          transform:rotate(-90deg);
         }
         span:nth-child(3) {
           right:-20px;
-          height:20px;
+          height:0px;
           width:3px;
+          bottom:-20px;
         }
         span:nth-child(4) {
-          bottom:-20px;
-          height:3px;
-          width:20px;
+          height:0px;
+          width:3px;
+          right:-3px;
+          transform-origin: 10px 10px;
+          transform:rotate(90deg);
         }
       }
       .d {
         left:50px;
         span:nth-child(1) {
-          height:20px;
+          height:0px;
           width:3px;
         }
         span:nth-child(2) {
-          height:3px;
-          width:20px;
+          height:0px;
+          width:3px;
+          transform-origin: 10px 10px;
+          transform:rotate(90deg);
         }
         span:nth-child(3) {
           right:-20px;
-          top:-20px;
-          height:40px;
+          bottom:-20px;
+          height:0px;
           width:3px;
         }
         span:nth-child(4) {
-          bottom:-20px;
-          height:3px;
-          width:20px;
+          left:0px;
+          height:0px;
+          width:3px;
+          transform-origin: 10px 10px;
+          transform:rotate(-90deg);
         }
       }
       .e {
         left:75px;
         span:nth-child(1) {
-          height:20px;
+          height:0px;
           width:3px;
         }
         span:nth-child(2) {
-          height:3px;
-          width:20px;
+          height:0px;
+          width:3px;
+          transform-origin: 10px 10px;
+          transform:rotate(-90deg);
         }
         span:nth-child(3) {
           right:-20px;
-          height:10px;
+          height:0px;
           width:3px;
+          bottom:-11px;
         }
         span:nth-child(4) {
-          bottom:-20px;
-          height:3px;
-          width:20px;
+          height:0px;
+          width:3px;
+          transform-origin: 10px 10px;
+          transform:rotate(90deg);
         }
         span:nth-child(5) {
-          top:8px;
-          height:3px;
-          width:20px;
+          top:-9px;
+          left:0px;
+          height:0px;
+          width:3px;
+          transform-origin: 10px 10px;
+          transform:rotate(-90deg);
         }
       }
     }
@@ -125,7 +146,7 @@ header {
         span:nth-child(1) {
           height:14px;
           width:14px;
-          background:#000!important;
+          background:transparent!important;
           border:3px solid #fff;
         }
         span:nth-child(2) {
@@ -173,7 +194,7 @@ header {
         span:nth-child(1) {
           height:17px;
           width:14px;
-          background:#000!important;
+          background:transparent!important;
           border-top:3px solid #fff;
           border-right:3px solid #fff;
           border-left:3px solid #fff;
@@ -185,7 +206,7 @@ header {
         }
       }
       .dash-bg {
-        width: 96px;
+        // width: 96px;
         height: 40px;
         background: #000;
         position: absolute;
